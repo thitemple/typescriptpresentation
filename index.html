@@ -1,0 +1,1046 @@
+<!DOCTYPE HTML>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US" class="ie ie6 lt-ie9">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" class="ie ie7 lt-ie9">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" class="ie ie8 lt-ie9">
+<![endif]-->
+<!--[if gte IE 9]>
+<html lang="en-US" class="ie ie9">
+<![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="en-US" class="">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0 minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="Thiago Temple">
+
+	<meta property="og:title" content="TypeScript">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://templecoding.com">
+
+	<meta name="description" content="Flowtime.js is an open source framework for easily build HTML presentations or websites. It’s built with web standards in mind and on top of a solid full page grid layout powered by CSS3 hardware accelerated transition and comes with a complete set of Javascript API for deep customization.">
+
+	<title>TypeScript</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="css/flowtime.css">
+	<link rel="stylesheet" href="css/themes/typescript.css">
+	<link rel="stylesheet" href="assets/css/prism.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<link rel="apple-touch-icon-precomposed" 						href="img/touch-icon-iphone.png">
+	<link rel="apple-touch-icon-precomposed" 	sizes="72x72" 		href="img/touch-icon-ipad.png">
+	<link rel="apple-touch-icon-precomposed" 	sizes="114x114" 	href="img/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon-precomposed" 	sizes="144x144" 	href="img/touch-icon-ipad-retina.png">
+
+	<link rel="apple-touch-startup-image" href="img/startup-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="img/startup-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+
+</head>
+<body class="">
+
+	<div class="flowtime">
+		<div class="ft-section" data-id="intro">
+			<div id="/intro/page-1" class="ft-page" data-id="page-1" data-title="TypeScript">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<img src="img/typescript.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="/intro/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							what is it <i class="fa fa-question-circle fa-6"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="/intro/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							it's JavaScript
+						</h1>
+						<img src="img/js.png" />
+					</div>
+				</div>
+			</div>
+			<div id="/intro/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							but more...
+						</h1>
+						<img class="ft-fragment" src="img/superman.gif" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ft-section" data-id="why">
+			<div id="/why/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							why <i class="fa fa-question-circle fa-6"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="/why/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							typing
+						</h1>
+						<img src="img/typing.gif" />
+					</div>
+				</div>
+			</div>
+			<div id="/why/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							ES 2015 / ES6 <i class="fa fa-forward"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="/why/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							compiler errors <i class="fa fa-exclamation-triangle"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+
+			<div id="/why/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							refactoring
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="how-it-works">
+			<div id="/how-it-works/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							How it works <i class="fa fa-question-circle fa-6"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div id="/how-it-works/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							compiling
+						</h1>
+						<img class="ft-fragment" src="img/transformation.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="/how-it-works/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							tsconfig.json file
+						</h1>
+						<pre><code class="language-json">{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "target": "es5",
+        "out": "../../built/local/tsc.js",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot"
+    ]
+}</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/how-it-works/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							webpack
+						</h1>
+						<img src="img/webpack.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="/how-it-works/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							webpack
+						</h1>
+						<ul>
+							<li>compile</li>
+							<li>bundle</li>
+							<li>minify</li>
+							<li>load modules</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="syntax">
+			<div id="/syntax/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							syntax
+						</h1>
+						<img src="img/syntax.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							variables
+						</h1>
+						<ul>
+							<li>let</li>
+							<li>const</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							let
+						</h1>
+						<pre><code class="language-typescript">let myvar = 'test';
+let secondVar;</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							const
+						</h1>
+						<pre><code class="language-typescript">const myvar = 'test';
+myvar = 'newval; // ERROR</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							classes
+						</h1>
+						<pre class="ft-fragment shy"><code class="language-typescript">class Person {
+}
+let person = new Person();</code></pre>
+						<pre class="ft-fragment shy"><code class="language-typescript">class Person {
+	constructor (name) {
+		this.name = name;
+	}
+
+	sayHello() {
+		console.log(this.name); // Thiago
+	}
+}
+new Person('Thiago').sayHello();</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-6" class="ft-page" data-id="page-6">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							classes
+						</h1>
+						<pre><code class="language-typescript">class Person {
+	constructor (public name) {
+	}
+
+	sayHello() {
+		console.log(this.name); // Thiago
+	}
+}
+new Person('Thiago').sayHello();</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-7" class="ft-page" data-id="page-7">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							classes -> inheritance
+						</h1>
+						<pre><code class="language-typescript">class Person {
+	constructor (public name) {
+	}
+
+	sayHello() {
+		console.log(this.name); // Thiago
+	}
+}
+
+class User extends Person {
+	constructor(name, public email) {
+		super(name);
+	}
+	
+	sayHello() {
+		console.log(this.name, this.email); // Thiago tvtemple@emergensys.net
+	}
+}
+new User('Thiago', 'tvtemple@emergensys.net').sayHello();</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-8" class="ft-page" data-id="page-8">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							arrow functions
+						</h1>
+						<pre><code class="language-typescript">function sayHello(name) {
+	console.log(name);
+}
+
+const sayHello = name => {
+	console.log(name);
+}
+
+setTimeout(() => {
+	console.log('after timeout');
+}, 1000);</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-9" class="ft-page" data-id="page-9">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							template strings
+						</h1>
+						<pre><code class="language-typescript">var message = 'Text ' + valFromVar;
+const message = `Text ${valFromVar}`;
+
+const sayHello = name => {
+	console.log(`Hello ${name}`);
+}
+sayHello('Thiago'); // Hello Thiago
+
+const breaking = `
+	We can
+	break 
+	lines, 
+	and it's ok`;</code></pre>
+					</div>
+				</div>
+			</div>
+			<div id="/syntax/page-10" class="ft-page" data-id="page-10">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							enums
+						</h1>
+						<pre><code class="language-typescript">enum BestMoviesEver {
+	StarWars,
+	TheMatrix,
+	ForrestGump
+}
+
+console.log(BestMoviesEver.ForrestGump); // 2</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-11" class="ft-page" data-id="page-11">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							enums
+						</h1>
+						<pre><code class="language-typescript">enum BestMoviesEver {
+	StarWars,
+	TheMatrix,
+	ForrestGump
+}
+
+enum BestMoviesEver {
+	Twilight = 3,
+	Transformers4,
+	StreetFighter
+}
+
+console.log(BestMoviesEver.Transformers4); // 4</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-12" class="ft-page" data-id="page-12">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							default parameters
+						</h1>
+						<pre><code class="language-typescript">function sayHello(name = 'Thiago') {
+	console.log(name);
+}
+sayHello(); // Thiago</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-12a" class="ft-page" data-id="page-12a">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							practice - todo app
+						</h1>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-13" class="ft-page" data-id="page-13">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							destructuring arrays
+						</h1>
+						<pre><code class="language-typescript">let movies = ['Star Wars', 'The Matrix', 'Forrest Gump'];</code>
+
+<code class="language-typescript ft-fragment">// before
+var favoriteMovie = movies[0];</code>
+
+<code class="language-typescript ft-fragment">// after
+const [favoriteMovie] = movies;</code>
+
+<code class="language-typescript ft-fragment">// or
+const [, favoriteMovie] = movies;
+console.log(favoriteMovie); // The Matrix
+
+const [favoriteMovie, , secondFavorite] = movies;
+console.log(favoriteMovie); // Star Wars
+console.log(secondMovie); // Forrest Gump</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-14" class="ft-page" data-id="page-14">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							destructuring objects
+						</h1>
+						<pre><code class="language-typescript">let movie = { title: 'Star Wars', year: 1977 };</code>
+
+<code class="language-typescript ft-fragment">// before
+var title = movie.title;
+var year = movie.year;</code>
+
+<code class="language-typescript ft-fragment">// after
+const {title: title, year: year} = movie;</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-15" class="ft-page" data-id="page-15">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							destructuring objects (cont...)
+						</h1>
+						<pre><code class="language-typescript">let movie = { title: 'Star Wars', year: 1977 };</code>
+
+<code class="language-typescript ft-fragment">const {t: title, y: year} = movie;</code>
+
+<code class="language-typescript ft-fragment">const {title, year} = movie;</code>
+
+<code class="language-typescript ft-fragment">const {title, year, rating = 10} = movie;</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/syntax/page-16" class="ft-page" data-id="page-16">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							destructuring objects (cont...)
+						</h1>
+						<pre><code class="language-typescript">function logMovieTitle({ title = 'No title' }) {
+	console.log(title);
+}
+
+let movie = { title: 'Star Wars' };
+logMovieTitle(movie); // Star Wars
+logMovieTitle({}); // No title</code></pre>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="ft-section" data-id="modules">
+			<div id="/modules/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>modules</h1>
+						<ul>
+							<li>reuse</li>
+							<li>isolate scope</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="/modules/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>modules - syntax</h1>
+						<pre><code class="language-typescript ft-fragment">// movie.ts
+export class Movie {
+	constructor(public title, public year) {
+
+	}
+
+	printMovie() {
+		return `Title: ${this.title}, Year: ${this.year}`;
+	}
+}</code>
+
+<code class="language-typescript ft-fragment">// app.ts
+import { Movie } from './movie.ts';
+
+new Movie('Star Wars', 1977).printMovie(); // Title: Star Wars, Year: 1977</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/modules/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>modules - syntax (cont...)</h1>
+						<pre><code class="language-typescript">// movie.ts
+class Movie { ... }
+
+function findFavoriteMovie() {}
+
+const rating = 5;
+
+export { Movie, findFavoriteMovie, rating };</code>
+
+<code class="language-typescript ft-fragment">// app.ts
+import { Movie, findFavoriteMovie, rating } from './movie.ts';</code>
+
+<code class="language-typescript ft-fragment">// app.ts
+import * as movie from './movie.ts';
+
+new movie.Movie();
+movie.findFavoriteMovie();
+movie.rating;
+</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/modules/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>modules - syntax (cont...)</h1>
+						<pre><code class="language-typescript">// movie.ts
+export default class Movie { ... }</code>
+
+<code class="language-typescript ft-fragment">// app.ts
+import Movie from './movie.ts';
+
+new Movie();
+</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/modules/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>modules - loading</h1>
+						<img src="img/webpack.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div id="/modules/page-6" class="ft-page" data-id="page-6">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							practice
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="typings">
+			<div id="/typings/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>typing</h1>
+						<img src="img/typing2.gif" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="/typings/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>types</h1>
+
+						<ul>
+							<li>string</li>
+							<li>number</li>
+							<li>boolean</li>
+						</ul>
+
+						<pre><code class="language-typescript ft-fragment">let movieTitle: string = 'Star Wars';</code>
+
+<code class="language-typescript ft-fragment">let movieYear: number = 1977;</code>
+
+<code class="language-typescript ft-fragment">let bestMovieOfAllTimes: boolean = true;</code>
+
+<code class="language-typescript ft-fragment">movieTitle = 1977; // Type 'number' is not assignable to type 'string'</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>typed arrays</h1>
+
+						<pre><code class="language-typescript">let numbers: number[];</code>
+
+<code class="language-typescript ft-fragment">let numbers: number[] = [1, 2, 3, 4, 5];</code>
+
+<code class="language-typescript ft-fragment">let numbers = [1, 2, 3, 4, 5];
+numbers.push(''); // Argument of type 'string' is not assignable to parameter of type 'number'.</code>
+
+<code class="language-typescript ft-fragment">class Movie {}
+let movies: Movie[];</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>interfaces</h1>
+
+						<pre><code class="language-typescript">interface IMovie {
+	title: string;
+	year: number;
+}
+
+class Movie implements IMovie {} // Class 'Movie'
+function showMovie(movie: IMovie) {}</code>
+
+<code class="language-typescript ft-fragment">let numbers: number[] = [1, 2, 3, 4, 5];</code>
+
+<code class="language-typescript ft-fragment">let numbers = [1, 2, 3, 4, 5];
+numbers.push(''); // Argument of type 'string' is not assignable to parameter of type 'number'.</code>
+
+<code class="language-typescript ft-fragment">class Movie {}
+let movies: Movie[];</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>inline</h1>
+
+						<pre><code class="language-typescript">let movie: { title: string };
+movie = { title: 'Forrest Gump' };
+
+movie = {}; // Type '{}' is not assignable to type '{ title: string; }'. Property 'title' is missing in type '{}'
+
+movie = { title: 12 }; // Type '{ title: number }' is not assignable to type '{ title: string }'
+
+function showUser(user: { name: 'string' }) {}</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-6" class="ft-page" data-id="page-6">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>any</h1>
+
+						<pre><code class="language-typescript">function das(obj: any) {
+}
+
+function parseJson(): any {
+	
+}
+</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-7" class="ft-page" data-id="page-7">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>void</h1>
+
+						<pre><code class="language-typescript">function sayHello(): void {
+	console.log('Hello');
+}
+</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-8" class="ft-page" data-id="page-8">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>generics</h1>
+
+						<pre><code class="language-typescript">function sayHello<T>(param: T): T {
+	console.log('Hello', param);
+	return param;
+}
+sayHello<string>('Thiago'); // Hello Thiago</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-9" class="ft-page" data-id="page-9">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>generics</h1>
+
+						<pre><code class="language-typescript">interface HasTitle {
+	title: string;
+}
+
+class Movie implements HasTitle {
+	constructor(public title) {}
+}
+
+class Employee implements HasTitle {
+	constructor(public title) {}
+}
+
+function printsTitle<T extends HasTitle>(obj: T) {
+	console.log(obj.title);
+}
+
+printsTitle(new Movie('The Matrix')); // The Matrix
+
+printsTitle(new Employee('Neo')); // Neo</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-10" class="ft-page" data-id="page-10">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>type alias</h1>
+
+						<pre><code class="language-typescript">type stringNumber = string|number;
+let das: stringNumber;
+das = 'Thiago';
+das = 1;</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-11" class="ft-page" data-id="page-11">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>type alias</h1>
+
+						<pre><code class="language-typescript">type functionOrObject = ()=>{}|{};
+
+function execute(config: functionOrObject) {
+	let params: {};
+	if(typeof config === "function") {
+		params = config();
+	} else {
+		params = {};
+	}
+}</code>
+
+<code class="language-typescript ft-fragment">function processString(val: string|string[]) {
+	if(typeof val === "string") {
+		console.log(val);
+	} else {
+		for(let v of val) {
+			console.log(v);
+		}
+	}	
+}</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-12" class="ft-page" data-id="page-12">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>union type (strings)</h1>
+
+						<pre><code class="language-typescript">type MovieGenres = 'ScienceFiction' | 'Drama' | 'Comedy' | 'Action';
+
+class Movie {
+	genre: MovieGenres;
+}
+
+new Movie().genre = 'ScienceFiction';
+
+new Movie().genre = 'Adventure'; // Type '"Adventure"' is not assignable to type ...</code>
+</pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/typings/page-13" class="ft-page" data-id="page-13">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>
+							practice
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="more-typing">
+			<div id="/more-typing/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>more typing</h1>
+
+						<img src="img/typing3.gif" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div id="/more-typing/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>type assertion</h1>
+
+						<pre><code class="language-typescript">interface Movie {
+	title: string;
+}
+
+$.getJSON('/getMovie')
+	.done(data => {
+		let movie = data as Movie;
+		printMovieTitle(movie);
+});
+
+function printMovieTitle(movie: Movie) {
+	console.log(movie.title);
+}</code></pre>
+					</div>
+				</div>
+			</div>
+
+			<div id="/more-typing/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>DefinitelyTyped</h1>
+
+						<a href="http://definitelytyped.org/">http://definitelytyped.org/</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="/more-typing/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>TSD</h1>
+
+						<a href="http://definitelytyped.org/tsd/">http://definitelytyped.org/tsd/</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="/more-typing/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>global.d.ts</h1>
+
+						<pre><code class="language-typescript ft-fragment">interface Window {
+	EMGS: any;
+}
+
+window.EMGS.resources...</code></pre>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="recommendations">
+			<div id="/recommendations/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>Recommendations</h1>
+				
+						<img src="img/recommendations.gif" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>type everything</h1>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-3" class="ft-page" data-id="page-3">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>avoid any</h1>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-4" class="ft-page" data-id="page-4">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>no default export</h1>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-5" class="ft-page" data-id="page-5">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>tslint</h1>
+
+						<a target="_blank" href="https://palantir.github.io/tslint/">https://palantir.github.io/tslint/</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-6" class="ft-page" data-id="page-6">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>pluralsight</h1>
+
+						<a target="_blank" href="https://app.pluralsight.com/library/courses/typescript/table-of-contents">TypeScript Fundamentals</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-6" class="ft-page" data-id="page-6">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>TypeScript Deep Dive book</h1>
+
+						<a target="_blank" href="https://www.gitbook.com/book/basarat/typescript/details">https://www.gitbook.com/book/basarat/typescript/details</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="/recommendations/page-7" class="ft-page" data-id="page-7">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<h1>TypeScript blog</h1>
+
+						<a target="_blank" href="https://blogs.msdn.microsoft.com/typescript">https://blogs.msdn.microsoft.com/typescript</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft-section" data-id="end">
+			<div id="/end/page-1" class="ft-page" data-id="page-1">
+				<div class="stack-center">
+					<div class="stacked-center">
+						<img src="img/end.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/brav1toolbox.js"></script>
+	<script src="js/flowtime.js"></script>
+	<script src="assets/js/prism.js"></script>
+
+	<script type="text/javascript">
+		var cacheTitle = document.title.replace("Flowtime.js | ", "");
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-1228618-10']);
+		_gaq.push(['_trackPageview']);
+		_gaq.push(['_trackEvent', 'Flowtime', 'Landing', document.title]);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		// Configuration API test
+		Flowtime.showProgress(true);
+		// Flowtime.fragmentsOnSide(true);
+		// Flowtime.fragmentsOnBack(true);
+		// Flowtime.useHistory(false);
+		// Flowtime.slideInPx(true);
+		// Flowtime.sectionsSlideToTop(true);
+		// Flowtime.backFromPageToTop(true);
+		// Flowtime.gridNavigation(false);
+		// Flowtime.useOverviewVariant(true);
+		Flowtime.parallaxInPx(true);
+		//
+		// event management
+		// Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
+		Flowtime.onNavigation(onNavigation);
+		function onNavigation(e)
+		{
+			_gaq.push(['_trackEvent', 'Flowtime', 'Navigation', cacheTitle + ' > ' + document.title.replace("Flowtime.js | ", "")]);
+			// console.log(cacheTitle + ' > ' + document.title.replace("Flowtime.js | ", ""));
+			cacheTitle = document.title.replace("Flowtime.js | ", "");
+			//console.log('section', e.section, 'sectionIndex', e.sectionIndex);
+			//console.log('page', e.page, 'pageIndex', e.pageIndex);
+			//console.log('pastSectionIndex', e.pastSectionIndex, 'pastPageIndex', e.pastPageIndex);
+			//console.log('prevSection', e.prevSection);
+			//console.log('nextSection', e.nextSection);
+			//console.log('prevPage', e.prevPage);
+			//console.log('nextPage', e.nextPage);
+			//console.log('fragment', e.fragment, + 'fragmentIndex', e.fragmentIndex);
+			//console.log("isOverview", e.isOverview);
+			//console.log('progress:', e.progress, 'total:', e.total);
+			//var value = Math.round(e.progress * 100 / e.total);
+			//console.log('Completion: ' + value + '%');
+		}
+		// starts the application with configuration options
+		Flowtime.start();
+	</script>
+	<script type="text/javascript" src="http://slidemote.jit.su/slidemote.js#flowtime"></script>
+</body>
+</html>

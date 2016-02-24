@@ -1,0 +1,40 @@
+Why
+	- typing
+	- javascript features
+What
+	- it is js
+	- es6 / 2015
+How it works
+	- compilation
+	- tsconfig file
+Syntax
+	- variables
+		- let / const
+	- classes
+		- constructors
+		- properties
+		- inheritance
+		- optional
+	- arrow functions
+	- modules
+	- destructuring
+	- template strings
+	- enums
+Typings
+	- valid types (boolean, number, string)
+	- string literal type
+	- tsd
+	- global interfaces
+	- arrays
+	- interfaces
+	- inline
+	- any
+	- void
+	- generics
+	- type alias
+	- union type (|)
+	- global.d.ts
+	- type assertion (not casting)
+Recommendations
+	- tslint
+	- no export default
