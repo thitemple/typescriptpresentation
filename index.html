@@ -717,7 +717,7 @@ function parseJson(): any {
 					<div class="stacked-center">
 						<h1>generics</h1>
 
-						<pre><code class="language-typescript">function sayHello<T>(param: T): T {
+						<pre><code class="language-typescript">function sayHello&lt;T&gt;(param: T): T {
 	console.log('Hello', param);
 	return param;
 }
@@ -743,7 +743,7 @@ class Employee implements HasTitle {
 	constructor(public title) {}
 }
 
-function printsTitle<T extends HasTitle>(obj: T) {
+function printsTitle&lt;T extends HasTitle&gt;(obj: T) {
 	console.log(obj.title);
 }
 
